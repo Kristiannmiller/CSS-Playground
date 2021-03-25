@@ -4,6 +4,8 @@ import './Buttons.css';
 
 const Buttons = () => {
   return (
+    <section className="buttonWorldWrap">
+      <h1 className="title">Button World</h1>
     <section className="buttonsWrap">
       <article className="buttonWrap">
         <button className="button1">One</button>
@@ -65,6 +67,7 @@ const Buttons = () => {
       <article className="buttonWrap">
         <button className="button20">Twenty</button>
       </article>
+    </section>
     </section>
   )
 }
