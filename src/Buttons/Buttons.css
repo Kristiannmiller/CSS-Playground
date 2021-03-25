@@ -72,3 +72,65 @@ button {
   border-radius: 0;
   border-bottom: 2px solid #eee;
 }
+
+.buttonWrap2 {
+  transition: 1s ease;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 25%;
+  height: 25%;
+}
+
+.sun {
+  width: 64px;
+  height: 64px;
+  background: linear-gradient(180deg, #ffdc2a 0%, #fb2182 41.54%);
+  box-shadow: 0px 0px 10px #ffdc2a;
+  z-index: 2;
+  border-radius: 65px;
+  transition: all 1s ease-in-out;
+}
+
+.button2 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #2c0055;
+  box-shadow: 0px 0px 16px #c80de0;
+  transition: all 1s ease-in-out;
+  border-radius: 2px;
+  z-index: 3;
+  border: 2px solid;  width: 175px;
+  border-image: linear-gradient(#360154, #d442d5) 30;
+  height: 60px;
+  cursor: pointer;
+}
+
+.button2__span {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: "Sacramento", cursive;
+  left: 56px;
+  font-size: 35px;
+  line-height: 70px;
+  margin: 0 auto;
+  transition: all 0.3s ease-in-out;
+  background: -webkit-linear-gradient(#ffdc2a, #fb2182);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
+
+.buttonWrap2:hover {
+  transition: 1s ease;
+  align-items: flex-end;
+}
+
+.buttonWrap2:hover #sunset {
+    margin-bottom: 40px;
+    transition: all 1s ease-in-out;
+    box-shadow: 0px 0px 10px #ffdc2a;
+}

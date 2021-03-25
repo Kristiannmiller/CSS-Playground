@@ -13,8 +13,11 @@ const Buttons = () => {
           <div id="circle"></div>
         </div>
       </article>
-      <article className="buttonWrap">
-        <button className="button2">Two</button>
+      <article className="buttonWrap2">
+          <div className="button2">
+            <span className="button2__span">Two</span>
+          </div>
+          <div className="sun" id="sunset"></div>
       </article>
       <article className="buttonWrap">
         <button className="button3">Three</button>
