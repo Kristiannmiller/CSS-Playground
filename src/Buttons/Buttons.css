@@ -1,7 +1,7 @@
+
 .buttonWorldWrap {
   text-align: -webkit-center;
 }
-
 .title {
   color: #f6f6f6;
   margin-top: 5%;
@@ -22,9 +22,53 @@
   width: 25%;
   height: 25%;
 }
-
 button {
   width: 175px;
   height: 50px;
   margin: 10%;
+}
+
+.button1 {
+  background: #222;
+  border: none;
+  border-radius: 10px;
+  color: #f6f6f6;
+  font-size: 40px;
+  font-family: 'Cookie', cursive;
+  position: relative;
+  transition: 1s;
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-top: 5px;
+  width: 175px;
+  height: 50px;
+  margin: 10%;
+}
+
+.button1 #circle {
+  width: 5px;
+  height: 5px;
+  background: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  left: 50%;
+  overflow: hidden;
+  transition: 500ms;
+}
+
+.button1:hover {
+  background: transparent;
+}
+
+.button1:hover #circle {
+  height: 50px;
+  width: 175px;
+  left: 0;
+  border-radius: 0;
+  border-bottom: 2px solid #eee;
 }

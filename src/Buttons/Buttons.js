@@ -8,7 +8,10 @@ const Buttons = () => {
       <h1 className="title">Button World</h1>
     <section className="buttonsWrap">
       <article className="buttonWrap">
-        <button className="button1">One</button>
+        <div className="button1">
+          <span className="noselect">One</span>
+          <div id="circle"></div>
+        </div>
       </article>
       <article className="buttonWrap">
         <button className="button2">Two</button>
