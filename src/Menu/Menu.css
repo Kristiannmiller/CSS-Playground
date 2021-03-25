@@ -1,0 +1,17 @@
+.projectLinks {
+  display: flex;
+  flex-direction: column;
+  margin: 15%;
+}
+
+.projectLink {
+  width: auto;
+  font-size: 5em;
+  text-decoration: none;
+  color: #FEC601;
+}
+
+.projectLink:hover {
+  text-decoration: underline;
+  color: #297373;
+}
