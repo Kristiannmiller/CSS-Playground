@@ -6,8 +6,8 @@ const Menu = () => {
   return (
     <section className="projectLinks">
       <Route>
-        <NavLink title="Navigate to project 1" id="project1" className="projectLink" to="/project1">
-          Project One
+        <NavLink title="Navigate to buttons" id="project1" className="projectLink" to="/buttons">
+          Button World
         </NavLink>
       </Route>
       <Route>

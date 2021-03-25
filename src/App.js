@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {withRouter, BrowserRouter, Route, Switch, NavLink, useHistory} from 'react-router-dom';
-import Fakebook from './Fakebook/Fakebook.js'
+import Buttons from './Buttons/Buttons.js'
 import Menu from './Menu/Menu.js'
 import './App.css';
 
@@ -19,8 +19,8 @@ function App() {
         </Route>
       </header>
       <Switch>
-        <Route path='/project1'>
-          <Fakebook />
+        <Route path='/buttons'>
+          <Buttons />
         </Route>
         <Route exact path='/'>
           <Menu />
