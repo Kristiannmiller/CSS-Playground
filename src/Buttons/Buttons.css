@@ -76,6 +76,7 @@ button {
 /* ~~~~ BUTTON 2 ~~~~ */
 
 .buttonWrap2 {
+  position: relative;
   transition: 1s ease;
   justify-content: center;
   align-items: center;
