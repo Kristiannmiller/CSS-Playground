@@ -1,3 +1,4 @@
+/* ~~~~ GLOBAL ~~~~ */
 
 .buttonWorldWrap {
   text-align: -webkit-center;
@@ -28,6 +29,8 @@ button {
   margin: 10%;
 }
 
+/* ~~~~ BUTTON 1 ~~~~ */
+
 .button1 {
   background: #222;
   border: none;
@@ -47,7 +50,6 @@ button {
   height: 50px;
   margin: 10%;
 }
-
 .button1 #circle {
   width: 5px;
   height: 5px;
@@ -60,11 +62,9 @@ button {
   overflow: hidden;
   transition: 500ms;
 }
-
 .button1:hover {
   background: transparent;
 }
-
 .button1:hover #circle {
   height: 50px;
   width: 175px;
@@ -72,6 +72,8 @@ button {
   border-radius: 0;
   border-bottom: 2px solid #eee;
 }
+
+/* ~~~~ BUTTON 2 ~~~~ */
 
 .buttonWrap2 {
   transition: 1s ease;
@@ -81,7 +83,6 @@ button {
   width: 25%;
   height: 25%;
 }
-
 .sun {
   width: 64px;
   height: 64px;
@@ -91,7 +92,6 @@ button {
   border-radius: 65px;
   transition: all 1s ease-in-out;
 }
-
 .button2 {
   position: absolute;
   display: flex;
@@ -107,7 +107,6 @@ button {
   height: 60px;
   cursor: pointer;
 }
-
 .button2__span {
   display: flex;
   align-items: center;
@@ -123,17 +122,17 @@ button {
   -webkit-text-fill-color: transparent;
   cursor: pointer;
 }
-
 .buttonWrap2:hover {
   transition: 1s ease;
   align-items: flex-end;
 }
-
 .buttonWrap2:hover #sunset {
-    margin-bottom: 40px;
-    transition: all 1s ease-in-out;
-    box-shadow: 0px 0px 10px #ffdc2a;
+  margin-bottom: 40px;
+  transition: all 1s ease-in-out;
+  box-shadow: 0px 0px 10px #ffdc2a;
 }
+
+/* ~~~~ BUTTON 3 ~~~~ */
 
 .button3 {
   position: relative;
@@ -168,7 +167,6 @@ button {
   transform: translate3d(0, 0.75em, -1em);
   transition: all 175ms cubic-bezier(0, 0, 1, 1);
 }
-
 .button3:hover {
   background: #260C1A;
   color: #DDC5BD;
@@ -176,12 +174,53 @@ button {
 .button3:hover::before {
   transform: translate3d(0, 0.75em, -1em);
 }
-
 .button3:active {
   transform: translate(0em, 0.75em);
 }
-
 .button3:active::before {
   transform: translate3d(0, 0, -1em);
   box-shadow: 0 0 0 2px #BB6F83, 0 0.25em 0 0 #BB6F83;
+}
+
+/* ~~~~ BUTTON 4 ~~~~ */
+
+#buttonWrap4 {
+  background: #f8f8f8;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.btn4border {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: .2em solid #0d1b1e;
+  height: 75px;
+  width: 150px;
+}
+.button4 {
+  height: 65px;
+  border: none;
+  width: 149px;
+  background: #f8f8f8;
+  cursor: pointer;
+  font: 600 1.5rem/1.25 'Montserrat', sans-serif;
+  letter-spacing: .125em;
+  text-transform: uppercase;
+  margin: 0%;
+}
+.button4:before {
+  position: absolute;
+  transition: all 0.125s ease-in-out;
+}
+.button4:hover {
+  transition: all 0.125s ease-in-out;
+  border: .125em dashed black;
+  margin: 3%;
+}
+.button4:focus {
+  border: .125em dashed black;
+  margin: 3%;
 }

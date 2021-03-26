@@ -22,8 +22,10 @@ const Buttons = () => {
       <article className="buttonWrap">
         <button className="button3">Three</button>
       </article>
-      <article className="buttonWrap">
-        <button className="button4">Four</button>
+      <article className="buttonWrap" id="buttonWrap4">
+        <div className="btn4border">
+          <button className="button4">Four</button>
+        </div>
       </article>
       <article className="buttonWrap">
         <button className="button5">Five</button>
