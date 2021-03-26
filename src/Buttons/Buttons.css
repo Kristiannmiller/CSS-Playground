@@ -28,6 +28,9 @@ button {
   height: 50px;
   margin: 10%;
 }
+button:focus {
+  outline: none;
+}
 
 /* ~~~~ BUTTON 1 ~~~~ */
 
@@ -224,7 +227,6 @@ button {
 .button4:focus {
   border: .125em dashed black;
   margin: 3%;
-  outline: none;
 }
 
 /* ~~~~ BUTTON 5 ~~~~ */
@@ -317,9 +319,6 @@ button {
   background: #001011;
   color: #f8f8f8;
   animation: none;
-}
-.button6:focus {
-  outline: none;
 }
 @keyframes jittery {
   5%,
@@ -419,6 +418,50 @@ button {
 .button8:hover::after {
   left: 80%;
 }
-.button8:focus {
-  outline: none;
+
+/* ~~~~ BUTTON 9 ~~~~ */
+
+#buttonWrap9 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.button9 {
+  cursor: pointer;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-radius: 75px;
+  font-size: 4rem;
+  font-weight: 800;
+  font-family: 'OpenSans', sans-serif;
+  background: #d0512f;
+  color: #e8c9b8;
+}
+.button9:hover {
+  color: #32140b;
+  box-shadow: 0px 0px 10px inset #dd8269;
+}
+.pulse {
+  background-color: #dd8269;
+  animation-timing-function: ease;
+  animation: pulse 2s infinite;
+  box-shadow: 0px 0px 10px #dd8269;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1, 1);
+  }
+  25% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.2, 1.2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
 }
