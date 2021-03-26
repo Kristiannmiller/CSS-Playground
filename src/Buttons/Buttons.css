@@ -223,4 +223,5 @@ button {
 .button4:focus {
   border: .125em dashed black;
   margin: 3%;
+  outline: none;
 }
