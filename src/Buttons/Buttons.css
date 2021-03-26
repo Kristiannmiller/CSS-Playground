@@ -374,3 +374,51 @@ button {
   background: transparent;
   transform: scaleX(1);
 }
+
+/* ~~~~ BUTTON 8 ~~~~ */
+
+.button8 {
+  cursor: pointer;
+  position: relative;
+  background: none;
+  color: aqua;
+  font-size: 1em;
+  text-transform: uppercase;
+  border: 0.2em solid aqua;
+  padding: 0.5em 1em;
+}
+.button8::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 10%;
+  background: #001011;
+  height: 0.3em;
+  right: 20%;
+  top: -0.21em;
+  transform: skewX(-45deg);
+  -webkit-transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+  transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+}
+.button8::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 10%;
+  background: #001011;
+  height: 0.3em;
+  left: 20%;
+  bottom: -0.25em;
+  transform: skewX(45deg);
+  -webkit-transition: all 0.45 cubic-bezier(0.86, 0, 0.07, 1);
+  transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+}
+.button8:hover::before {
+  right: 80%;
+}
+.button8:hover::after {
+  left: 80%;
+}
+.button8:focus {
+  outline: none;
+}
