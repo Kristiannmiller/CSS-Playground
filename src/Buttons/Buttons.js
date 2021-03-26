@@ -36,7 +36,7 @@ const Buttons = () => {
       <article className="buttonWrap">
         <button className="button6">Six</button>
       </article>
-      <article className="buttonWrap">
+      <article className="buttonWrap" id="buttonWrap7">
         <button className="button7">Seven</button>
       </article>
       <article className="buttonWrap">
