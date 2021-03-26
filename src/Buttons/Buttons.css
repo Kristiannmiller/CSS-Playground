@@ -298,3 +298,53 @@ button {
     transform: translate(-50%, -75%) rotate(360deg);
   }
 }
+
+/* ~~~~ BUTTON 6 ~~~~ */
+
+.button6 {
+  cursor: pointer;
+  height: 75px;
+  justify-content: center;
+  align-items: flex-end;
+  background: #7FD8BE;
+  border: 2px solid #A1FCDF;
+  font-family: 'Train One', cursive;
+  font-size: 2em;
+  letter-spacing: 10px;
+  animation: jittery 4s infinite;
+}
+.button6:hover {
+  background: #001011;
+  color: #f8f8f8;
+  animation: none;
+}
+.button6:focus {
+  outline: none;
+}
+@keyframes jittery {
+  5%,
+  50% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  15% {
+    transform: scale(1.15);
+  }
+  20% {
+    transform: scale(1.15) rotate(-5deg);
+  }
+  25% {
+    transform: scale(1.15) rotate(5deg);
+  }
+  30% {
+    transform: scale(1.15) rotate(-3deg);
+  }
+  35% {
+    transform: scale(1.15) rotate(2deg);
+  }
+  40% {
+    transform: scale(1.15) rotate(0);
+  }
+}
