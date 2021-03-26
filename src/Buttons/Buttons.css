@@ -140,15 +140,15 @@ button {
   display: inline-block;
   cursor: pointer;
   outline: none;
-  border: 2px solid rgb(106, 163, 137);
-  background: rgb(205, 255, 232);
+  border: 2px solid #AA4465;
+  background: #DDC5BD;
   transform-style: preserve-3d;
   transition: all 175ms cubic-bezier(0, 0, 1, 1);
   border-radius: 1em;
   vertical-align: middle;
   text-decoration: none;
   font-size: 1.5rem;
-  color: rgb(106, 163, 137);
+  color: #AA4465;
   font-weight: 700;
   text-transform: uppercase;
   font-family: 'OpenSans', sans-serif;
@@ -162,15 +162,16 @@ button {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgb(150, 232, 195);
+  background: #CC9AA0;
   border-radius: inherit;
-  box-shadow: 0 0 0 2px rgb(121, 186, 156), 0 0.5em 0 0 rgb(106, 163, 137);
+  box-shadow: 0 0 0 2px #BB6F83, 0 0.5em 0 0 #AA4465;
   transform: translate3d(0, 0.75em, -1em);
   transition: all 175ms cubic-bezier(0, 0, 1, 1);
 }
 
 .button3:hover {
-  background: rgb(187, 232, 211);
+  background: #260C1A;
+  color: #DDC5BD;
 }
 .button3:hover::before {
   transform: translate3d(0, 0.75em, -1em);
@@ -182,5 +183,5 @@ button {
 
 .button3:active::before {
   transform: translate3d(0, 0, -1em);
-  box-shadow: 0 0 0 2px rgb(121, 186, 156), 0 0.25em 0 0 rgb(121, 186, 156);
+  box-shadow: 0 0 0 2px #BB6F83, 0 0.25em 0 0 #BB6F83;
 }
