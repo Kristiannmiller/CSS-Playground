@@ -697,3 +697,42 @@ button:focus {
   width: calc(100% - 10px);
   height: calc(100% + 10px);
 }
+
+/* ~~~~ BUTTON 15 ~~~~ */
+
+#buttonWrap15 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.button15 {
+  width: 75%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  appearance: none;
+  background-image: url("https://user-images.githubusercontent.com/65047537/112732860-23e74e00-8f02-11eb-87e1-ef18a2916190.jpg");
+  border: 5px solid #1abc9c;
+  border-radius: 3em;
+  color: #001011;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 2em;
+  font-weight: 400;
+  line-height: 1;
+  margin: 20px;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 8px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  transition: background 300ms ease-in-out;
+}
+.button15:hover {
+  background-position: 100px;
+}
