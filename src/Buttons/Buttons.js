@@ -59,8 +59,8 @@ const Buttons = () => {
           <span>Eleven</span>
         </button>
       </article>
-      <article className="buttonWrap">
-        <button className="button12">Twelve</button>
+      <article className="buttonWrap" id="buttonWrap12">
+        <button className="button12"><span className="btn12txt">Twelve</span></button>
       </article>
       <article className="buttonWrap">
         <button className="button13">Thirteen</button>

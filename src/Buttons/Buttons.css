@@ -548,3 +548,44 @@ button:focus {
 .button11:hover {
   color: #001011;
 }
+
+/* ~~~~ BUTTON 12 ~~~~ */
+
+#buttonWrap12 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.button12 {
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+  border: none;
+  width: 200px;
+  height: 80px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 600;
+  color: #f8f8f8;
+  background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+}
+.btn12txt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 180px;
+  background: #001011;
+}
+.button12:hover {
+  animation: slidebg 2s linear infinite;
+}
+@keyframes slidebg {
+  to {
+    background-position:50vw;
+  }
+}
