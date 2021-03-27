@@ -427,7 +427,6 @@ button:focus {
   justify-content: center;
   align-items: center;
 }
-
 .button9 {
   cursor: pointer;
   position: absolute;
@@ -464,4 +463,42 @@ button:focus {
   100% {
     transform: scale(1, 1);
   }
+}
+
+/* ~~~~ BUTTON 10 ~~~~ */
+
+#buttonWrap10 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.button10 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.miniBtn10 {
+  transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  font-size: 2em;
+  width: 1em;
+  height: auto;
+  background-color: #23395b;
+  color: #f8f8f8;
+  font-weight: 500;
+}
+.button10:hover .miniBtn10 {
+  margin: 8px;
+  width: 50px;
+  height: 50px;
+  border-radius: 200px;
+}
+.miniBtn10:hover {
+  box-shadow: 0px 0px 10px #f8f8f8;
 }

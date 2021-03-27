@@ -46,8 +46,12 @@ const Buttons = () => {
         <div className="button9 pulse"></div>
         <button className="button9">9</button>
       </article>
-      <article className="buttonWrap">
-        <button className="button10">Ten</button>
+      <article className="buttonWrap" id="buttonWrap10">
+        <section className="button10">
+          <div className="miniBtn10" id="btnT">T</div>
+          <div className="miniBtn10" id="btnE">E</div>
+          <div className="miniBtn10" id="btnN">N</div>
+        </section>
       </article>
       <article className="buttonWrap">
         <button className="button11">Eleven</button>
