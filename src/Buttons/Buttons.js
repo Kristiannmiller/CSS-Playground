@@ -68,7 +68,6 @@ const Buttons = () => {
       </article>
       <article className="buttonWrap" id="buttonWrap14">
         <button className="button14">Fourteen
-          <div className="btn14shadow"></div>
         </button>
       </article>
       <article className="buttonWrap">
