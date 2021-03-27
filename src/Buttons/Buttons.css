@@ -591,3 +591,69 @@ button:focus {
     background-position:50vw;
   }
 }
+
+/* ~~~~ BUTTON 13 ~~~~ */
+
+#buttonWrap13 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.button13 {
+  transition: all 0.3s;;
+
+  cursor: pointer;
+  margin: 0%;
+  position: relative;
+  width: 80%;
+  height: 60%;
+  display: block;
+  background-size: 100% 100%;
+  font-family: 'Ranchers', cursive;
+  letter-spacing: 2px;
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #333;
+  background-color: transparent;
+  border: none;
+  z-index: 1;
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/323909/yellow-top.png")
+}
+.btn13shadow {
+  margin: 0%;
+  position: absolute;
+  width: 78%;
+  height: 40%;
+  display: block;
+  background-size: 100% 100%;
+  font-family: 'Ranchers', cursive;
+  letter-spacing: 2px;
+  font-size: 28px;
+  margin-bottom: 19px;
+  margin-right: -5px;
+  text-decoration: none;
+  color: #333;
+  background-color: transparent;
+  border: none;
+  z-index: 0;
+  padding-top: 20px;
+  background-image: url("https://user-images.githubusercontent.com/65047537/112732262-89394000-8efe-11eb-8fc9-52712ace0d56.png")
+}
+.button13:hover {
+  -webkit-transform: translate(2.5%, 10%);
+  transform: translate(2.5%, 10%);
+  text-shadow: 2px 2px 1px white;
+}
+
+/* ~~~~ BUTTON 14 ~~~~ */
+
+#buttonWrap14 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
