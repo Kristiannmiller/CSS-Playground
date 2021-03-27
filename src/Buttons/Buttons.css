@@ -502,3 +502,49 @@ button:focus {
 .miniBtn10:hover {
   box-shadow: 0px 0px 10px #f8f8f8;
 }
+
+/* ~~~~ BUTTON 11 ~~~~ */
+
+#buttonWrap11 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.button11 {
+  transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+  width: 175px;
+  cursor: pointer;
+  border: none;
+  color: #f8f8f8;
+  background: #001011;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5em;
+  font-family: 'Righteous', cursive;
+}
+.button11 span {
+  z-index: 2;
+}
+.btn11arrow {
+  transition: all 0.45s cubic-bezier(0.86, 0, 0.07, 1);
+  display: flex;
+  color: #001011;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  height: 50px;
+  width: 50px;
+  border-radius: 500px;
+  margin-right: 10px;
+}
+.button11:hover .btn11arrow {
+  position: absolute;
+  justify-content: start;
+  padding-left: 15px;
+  width: 175px;
+  z-index: 1;
+}
+.button11:hover {
+  color: #001011;
+}
