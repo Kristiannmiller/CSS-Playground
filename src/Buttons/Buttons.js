@@ -73,8 +73,9 @@ const Buttons = () => {
       <article className="buttonWrap" id="buttonWrap15">
         <button className="button15">Fifteen</button>
       </article>
-      <article className="buttonWrap">
-        <button className="button16">Sixteen</button>
+      <article className="buttonWrap" id="buttonWrap16">
+        <div id="translate"></div>
+        <div className="button16">Sixteen</div>
       </article>
       <article className="buttonWrap">
         <button className="button17">Seventeen</button>
